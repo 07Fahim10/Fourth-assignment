@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output/main.css" rel="stylesheet">
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body class="font-plus-jakarta">
+  <!-- start nav bar section -->
+
+  <header class=" relative h-[200px] w-full xl:h-[680px] ">
+    <nav class="lg:px-10 md:px-5 md:py-2 flex justify-between items-center bg-white">
+        <a href="#logo">
+            <div class="h-[50px] w-[150px] bg-[url('/images/nav-bar-logo.png')] bg-no-repeat bg-cover xl:scale-90 scale-50"></div>
+        </a>
+
+        <div>
+            <ul class="lg:flex lg:items-center lg:gap-7 text-[24px] lg:text-lg md:gap-2 z-10 lg:z-aut lg:static absolute  w-full left-0 lg:w-auto lg:py-0 py-8 lg:pl-0 pl-7 top-[-400px] transition-all ease-in duration-50 md:opacity-100 opacity-0 text-white/80 lg:text-black dark:text-white bg-gray-900 lg:bg-transparent">
+                <li><a href="#" class="hover:text-[#F44335]">Home</a></li>
+                <li class="text-[#F44335]"><a href="#" class="hover:text-[#F44335]">About Us</a></li>
+                <li><a href="#" class="hover:text-[#F44335]">Upskill</a></li>
+                <li><a href="#" class="hover:text-[#F44335]">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="flex items-center gap-1 md:gap-2">
+            <button class="bg-[#F44335] rounded-md text-white md:px-4 md:py-2 lg:text-[18px] md-[16px] text-[9px] sm:text-[10px] px-2 py-1.5"><a href="#register-interest">Register-Interest</a></button>
+
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 sm:size-6 xl:ms-2 dark:stroke-white hover:scale-125 duration-500 transition" id="switch">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                 </svg>
+            </button>
+
+            <span class="text-[24px] cursor-pointer  lg:hidden block hover:scale-125 transition duration-500 pt-1 ">
+                <ion-icon name="menu" onclick="Menu(this)" class="dark:text-white size-5 sm:size-6 me-5 sm:me-7"></ion-icon>
+              </span>
+
+        </div>
+    </nav>
+</header>
+<!--
+    <div class="absolute top-0 z-[-1]">
+        <img src="images/Group 238901 (1).png" alt="" >
+
+
+        <div class="absolute bottom-0">
+            <img src="images/Wave.png" alt="">
+        </div> -->
+
+        <!-- <div >
+            <h5 class="text-white absolute xl:text-sm xl:top-24 xl:start-[550px] text-[7px] top-11 start-[110px] sm:top-12 sm:start-[250px]">Discover<span class="text-[#F44335]">-</span>Interact<span class="text-[#F44335]">-</span>Engage</h5>
+
+            <h1 class="text-white font-semibold text-center absolute xl:text-4xl text-[12px] xl:top-36 xl:start-[400px] top-[74px] start-[80px] sm:start-[220px]">Connecting <span class="text-[#F44335] underline">talent</span> to <br>
+                 opportunity through <span class="text-[#F44335] underline">skills </span></h1> -->
+
+            <!-- <p class="text-sm absolute top-64 start-[330px] text-white/80 text-center">We forster a skill-focussed environment enabling students to navigate their career with <br> their self-paced learning journey and businesses to gain market-ready talent. </p> -->
+
+            <!-- <button class="absolute top-[400px] start-[580px]  px-6 py-2 rounded-full bg-white text-[#F44335] text-sm font-bold">
+                Ask question
+            </button> -->
+        <!-- </div>
+    </div> -->
+
+
+<!-- end nav-bar section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+            // menubar controller
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+    </script>
+
+</body>
+</html>
