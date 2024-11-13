@@ -11,3 +11,19 @@
 .footer-text{
     @apply  sm:pb-3 pb-2 hover:text-[#F44335] hover:cursor-pointer transform duration-200 hover:translate-x-[5px] hover:scale-95;
 }
+
+
+/* add a custom scrollbar */
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: #20484F;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(214, 185, 185, 0.527);
+    border-radius: 20px;
+}

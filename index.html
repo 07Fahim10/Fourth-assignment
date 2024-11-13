@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en" class="dark" id="htmlTag">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +7,21 @@
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
-<body class="font-plus-jakarta">
+<body class="font-plus-jakarta  bg-white dark:bg-gray-900">
   <!-- start nav bar section -->
 
   <header>
-    <nav class="lg:px-10 md:px-5 md:py-2 flex justify-between items-center bg-white">
+    <nav class="lg:px-10 md:px-5 md:py-2 flex justify-between items-center bg-white dark:bg-gray-900">
         <a href="#logo">
-            <div class="h-[50px] w-[150px] bg-[url('/images/nav-bar-logo.png')] bg-no-repeat bg-cover md:scale-90 sm:scale-75 scale-50"></div>
+            <div class="h-[50px] w-[150px] bg-[url('/images/nav-bar-logo.png')] dark:bg-[url('/images/nav-bar-logo-white.webp')] bg-no-repeat bg-cover md:scale-90 sm:scale-75 scale-50"></div>
         </a>
 
         <div>
-            <ul class="lg:flex lg:items-center lg:gap-7 text-[24px] lg:text-[18px] lg:text-lg md:gap-2 z-10 lg:z-aut lg:static absolute  w-full left-0 lg:w-auto lg:py-0 py-8 lg:pl-0 pl-7 top-[-400px] transition-all ease-in duration-50 md:opacity-100 opacity-0 text-white/80 lg:text-black dark:text-white bg-gray-900 lg:bg-transparent">
-                <li><a href="#" class="hover:text-[#F44335]">Home</a></li>
-                <li class="text-[#F44335]"><a href="#" class="hover:text-[#F44335]">About Us</a></li>
-                <li><a href="#" class="hover:text-[#F44335]">Upskill</a></li>
-                <li><a href="#" class="hover:text-[#F44335]">Contact us</a></li>
+            <ul class="lg:flex lg:items-center lg:gap-7 text-[24px] lg:text-[18px] lg:text-lg md:gap-2 z-10 lg:z-aut lg:static absolute  w-full left-0 lg:w-auto lg:py-0 py-14 lg:pl-0 pl-7 top-[-400px] transition-all ease-in duration-50 md:opacity-100 opacity-0 text-white/80 lg:text-black dark:text-white bg-gray-900 lg:bg-transparent">
+                <li><a href="#home" class="hover:text-[#F44335]">Home</a></li>
+                <li class="text-[#F44335]"><a href="#aboutus" class="hover:text-[#F44335]">About Us</a></li>
+                <li><a href="#upskill" class="hover:text-[#F44335]">Upskill</a></li>
+                <li><a href="#contactus" class="hover:text-[#F44335]">Contact us</a></li>
             </ul>
         </div>
 
@@ -71,12 +71,12 @@
 
     <!-- start c4u empower section -->
 
-        <section class="px-1 sm:px-10 md:px-6 lg:px-8 xl:px-16 bg-[#F5F5F5] pt-3 pb-5">
+        <section class="px-1 sm:px-10 md:px-6 lg:px-8 xl:px-16 bg-[#F5F5F5] pt-3 pb-5 dark:bg-gray-900">
             <div class="container mx-auto">
                 <div class="grid grid-cols-6 gap-y-8 ml:ps-10">
                     <div class="col-span-3 md:col-span-2 lg:col-span-2 lg:col-span-2">
                         <div>
-                            <h3 class="font-extrabold md:text-xl lg:text-2xl xl:text-3xl text-black/80 md:py-16 lg:py-16 py-16">
+                            <h3 class="font-extrabold md:text-xl lg:text-2xl xl:text-3xl text-black/80 md:py-16 lg:py-16 py-16 dark:text-white">
                                 At <span class="text-[#F44335] underline">C4U</span>,
                                 <br>We Empower:
                             </h3>
@@ -150,7 +150,8 @@
                             </div>
 
 
-                            <div class="text-[12px] text-white/80  ps-3 pt-2 xl:pt-4 w-auto md:w-[240px]  pb-7 md:pb-0" >
+                            <div class="text-[12px] text-white/80  ps-3 pt-2 xl:pt-4 w-auto md:w-[150px]
+                            lg:w-[205px] pb-7 md:pb-0" >
                                 <p>
                                     We help students find their way in a fast-evolving world by creating a personalised learning journey  guaranteed to help stand outin a  crowded job market.
 
@@ -167,7 +168,7 @@
 
         <!-- start our mission section -->
 
-        <section class="bg-[#F5F5F5] md:pb-32 pb-[400px] relative">
+        <section class="bg-[#F5F5F5] dark:bg-gray-900 md:pb-32 pb-[400px] relative">
             <section class="container mx-auto ">
                 <div class="grid grid-cols-2 ">
 
@@ -177,9 +178,9 @@
                         <div class="pt-16 ps-4 sm:ps-28 md:pt-36 xl:ps-28 md:ps-4 lg:ps-10">
                             <h5 class="text-[12px] font-bold text-[#F44335] uppercase pb-2">About us</h5>
 
-                            <h3 class="text-2xl text-[#2D3142] font-bold pb-9">Our Mission</h3>
+                            <h3 class="text-2xl text-[#2D3142] font-bold pb-9 dark:text-white">Our Mission</h3>
 
-                            <p class="text-[12px] md:text-[16px] leading-5 font-semibold text-black/80 md:pb-24 pb-6 md:w-52 lg:w-[420px] w-[280px]">To create a personalised  pathway for continuous learning and transferrable skills development.</p>
+                            <p class="text-[12px] md:text-[16px] leading-5 font-semibold text-black/80 md:pb-24 pb-6 md:w-52 lg:w-[420px] w-[280px] dark:text-white/80">To create a personalised  pathway for continuous learning and transferrable skills development.</p>
 
                             <button class="flex items-center px-3 py-1 md:px-5 md:py-2 border-2 border-[#F44335] rounded-full text-xs font-bold text-[#F44335] gap-2 hover:scale-105 hover:bg-[#F44335] transition-all duration-200 hover:text-white ">Find out more
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 animate-ping">
@@ -231,7 +232,7 @@
 
          <!-- start our vision section -->
 
-            <section class="bg-[#F5F5F5] pb-20 md:pb-[130px] pt-10  md:pt-0 relative">
+            <section class="bg-[#F5F5F5] dark:bg-gray-900 pb-20 md:pb-[130px] pt-10  md:pt-0 relative">
                     <section class="container mx-auto ">
                         <div class="grid grid-cols-2 ">
 
@@ -272,9 +273,9 @@
                                 <div class="pt-[450px] ps-4 sm:ps-28 md:pt-36 xl:ps-[800px] md:ps-[490px] lg:ps-[610px]">
                                     <h5 class="text-[12px] font-bold text-[#F44335] uppercase pb-2">About us</h5>
 
-                                    <h3 class="text-2xl text-[#2D3142] font-bold pb-9">Our Vision</h3>
+                                    <h3 class="text-2xl text-[#2D3142] font-bold pb-9 dark:text-white">Our Vision</h3>
 
-                                    <p class="text-[12px] md:text-[16px] leading-5 font-semibold text-black/80 md:pb-24 pb-6 md:w-52 lg:w-[420px] w-[280px]">To have a globally recognised strategic bridge between education and the job market.</p>
+                                    <p class="text-[12px] md:text-[16px] leading-5 font-semibold text-black/80 md:pb-24 pb-6 md:w-52 lg:w-[420px] w-[280px] dark:text-white/80">To have a globally recognised strategic bridge between education and the job market.</p>
 
                                     <button class="flex items-center px-3 py-1 md:px-5 md:py-2 border-2 border-[#F44335] rounded-full text-xs font-bold text-[#F44335] gap-2 hover:scale-105 hover:bg-[#F44335] transition-all duration-200 hover:text-white ">Contact us
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 animate-ping">
@@ -292,28 +293,28 @@
 
                  <!-- start D-I-E section-->
 
-                 <section class="container mx-auto pt-16 md:pt-28 pb-12 md:pb-16 bg-[#FFFFFF]">
+                 <section class="container mx-auto pt-16 md:pt-28 pb-12 md:pb-16 bg-[#FFFFFF] dark:bg-gray-900">
                     <section class="grid grid-cols-3 ">
                         <!-- discover section -->
-                            <div class="col-span-3 md:col-span-1 ps-5 sm:ps-14 md:ps-2 lg:ps-16 xl:ps-7 relative pb-12 md:pb-0">
-                                <img src="images/Frame.png" alt="">
+                            <div class="col-span-3 md:col-span-1 ps-5 sm:ps-14 md:ps-2 lg:ps-16 xl:ps-7 relative pb-12 md:pb-0 dark:text-white">
+                                <img src="images/discover.png" alt="">
                                 <h4 class="text-2xl font-bold py-5  md:text-xl xl:text-2xl">Discover</h4>
-                                <p class="text-sm font-medium text-gray-700 w-auto md:w-[250px] xl:w-[360px]">We uncover students unique skills to stand out in a crowded job market</p>
-                                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-6 start-40 sm:-top-6 sm:start-72 md:-top-6 md:start-28 lg:-top-6 lg:start-40 xl:-top-6 xl:start-48">1</h1>
+                                <p class="text-sm font-medium text-gray-700 w-auto md:w-[250px] xl:w-[360px] dark:text-white">We uncover students unique skills to stand out in a crowded job market</p>
+                                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15 dark:text-red-500/50 absolute -top-6 start-40 sm:-top-6 sm:start-72 md:-top-6 md:start-28 lg:-top-6 lg:start-40 xl:-top-6 xl:start-48">1</h1>
                             </div>
                             <!-- interact section -->
-                            <div class="col-span-3 md:col-span-1 ps-5 sm:ps-14 md:ps-4 lg:ps-12 xl:ps-5 relative pb-12 md:pb-0">
-                                <img src="images/Frame (1).png" alt="">
+                            <div class="col-span-3 md:col-span-1 ps-5 sm:ps-14 md:ps-4 lg:ps-12 xl:ps-5 relative pb-12 md:pb-0 dark:text-white">
+                                <img src="images/interact.png" alt="">
                                 <h4 class="text-2xl font-bold py-5  md:text-xl xl:text-2xl">Interact</h4>
-                                <p class="text-sm font-medium text-gray-700 w-auto md:w-[250px] xl:w-[360px]">We open doors to new opportunities by expanding your transferrable skills</p>
-                                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-6 start-40 sm:-top-6 sm:start-72 md:-top-6 md:start-28 lg:-top-6 lg:start-36  xl:-top-6 xl:start-48">2</h1>
+                                <p class="text-sm font-medium text-gray-700 w-auto md:w-[250px] xl:w-[360px] dark:text-white">We open doors to new opportunities by expanding your transferrable skills</p>
+                                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-6 start-40 sm:-top-6 sm:start-72 md:-top-6 md:start-28 lg:-top-6 lg:start-36  xl:-top-6 xl:start-48 dark:text-red-500/50">2</h1>
                             </div>
                             <!-- engage section -->
-                            <div class="col-span-3 md:col-span-1 ps-5 sm:ps-14 md:ps-4 lg:ps-12 xl:ps-5 relative">
-                                <img src="images/Group 199.png" alt="">
-                                <h4 class="text-2xl font-bold py-1 md:text-xl xl:text-2xl">Engage</h4>
-                                <p class="text-sm font-medium text-gray-700 w-auto md:w-[250px] xl:w-[360px]">To forester a skill focussed environment that enable students to navigate their ideal career</p>
-                                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-6 start-40 sm:-top-6 sm:start-72 md:-top-6 md:start-24 lg:-top-7 lg:start-36 xl:-top-6 xl:start-48">3</h1>
+                            <div class="col-span-3 md:col-span-1 ps-5 sm:ps-14 md:ps-4 lg:ps-12 xl:ps-5 relative dark:text-white">
+                                <img src="images/Frame.png" alt="">
+                                <h4 class="text-2xl font-bold py-5 md:text-xl xl:text-2xl">Engage</h4>
+                                <p class="text-sm font-medium text-gray-700 w-auto md:w-[250px] xl:w-[360px] dark:text-white">To forester a skill focussed environment that enable students to navigate their ideal career</p>
+                                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-6 start-40 sm:-top-6 sm:start-72 md:-top-6 md:start-24 lg:-top-7 lg:start-36 xl:-top-6 xl:start-48 dark:text-red-500/50">3</h1>
                             </div>
 
                     </section>
@@ -328,7 +329,7 @@
                         <img src="images/Rectangle 32.png" alt="" class="absolute object-cover -z-10">
 
                         <div class="relative pt-5 md:pt-16 lg:pt-24 w-fit">
-                            <h3 class="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-2xl font-bold md:ps-16 lg:ps-24 xl:ps-16 ps-5">The Creative Team <br>
+                            <h3 class="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-2xl font-bold md:ps-16 lg:ps-24 xl:ps-16 ps-5 dark:text-white">The Creative Team <br>
                                 behind <span class="text-[#F44335]">the door</span></h3>
                                 <img src="images/Group (1).png" alt="" class="absolute top-10 start-36 sm:top-12 sm:start-44 md:top-[130px] md:start-64 lg:top-[170px] lg:start-[440px] xl:top-[150px] xl:start-64">
 
@@ -425,14 +426,14 @@
 
                 <!-- start footer section -->
 
-    <section class="px-6 md:px-10 lg:px-16 mt-[1750px] sm:mt-[950px] md:mt-[1050px] lg:mt-[1020px] xl:mt-[580px]">
+    <section class="px-6 md:px-10 lg:px-16 mt-[1750px] sm:mt-[950px] md:mt-[1050px] lg:mt-[1020px] xl:mt-[580px] dark:text-white">
         <div class="container mx-auto">
             <div class="grid grid-cols-6 gap-y-8  py-10">
                 <div class="col-span-6 ml:col-span-2 lg:col-span-2 ">
-                    <div class="mb-6 h-[46px] w-[138px] bg-[url('/images/nav-bar-logo.png')] bg-cover bg-no-repeat cursor-pointer">
+                    <div class="mb-6 h-[46px] w-[138px] bg-[url('/images/nav-bar-logo.png')] bg-cover bg-no-repeat cursor-pointer dark:bg-[url('/images/nav-bar-logo-white.webp')]">
                         <!-- <img src="images/nav-bar-logo.png" alt=""> -->
                     </div>
-                    <p class="text-[#20484F] pb-1 hover:text-[#F44335] hover:cursor-text hover:scale-95 duration-200">
+                    <p class="text-[#20484F] dark:text-white dark:hover:text-[#F44335] pb-1 hover:text-[#F44335] hover:cursor-text hover:scale-95 duration-200">
                         Level39 <br>One Canada Square, <br> Canary Wharf, <br>London, &ThinSpace; E14 5AB
                     </p>
                 </div>
@@ -494,10 +495,18 @@
     <!-- JS section -->
     <script>
             // menubar controller
-    function Menu(e){
+            function Menu(e){
       let list = document.querySelector('ul');
       e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
     }
+
+
+        // dark-mode enable
+
+        const htmlTag = document.getElementById("htmlTag");
+        document.getElementById("switch").addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        });
     </script>
 
 </body>
