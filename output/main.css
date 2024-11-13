@@ -7,3 +7,7 @@
 
 
 /* start reusing tag */
+
+.footer-text{
+    @apply  sm:pb-3 pb-2 hover:text-[#F44335] hover:cursor-pointer transform duration-200 hover:translate-x-[5px] hover:scale-95;
+}
